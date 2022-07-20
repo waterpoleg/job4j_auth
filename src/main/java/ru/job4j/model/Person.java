@@ -14,5 +14,7 @@ public class Person {
     private int id;
     private String login;
     private String password;
+    @Column(name = "employee_id")
+    private int employeeId;
 
 }
